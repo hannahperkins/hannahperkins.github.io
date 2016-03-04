@@ -80,6 +80,14 @@ aside {
     display:inline-block;transform: rotateY(180deg);
 }
 
+.vertical-center-box {
+    display: -webkit-flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 417px;
+}
+
 .hello {
     color: #EFEFEF;
 }
@@ -97,12 +105,15 @@ aside {
     background-size: cover;
     height: 417px;
     line-height: 417px;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .about-quote {
     display: inline-block;
     vertical-align: middle;
     line-height: normal;
+    max-width: 90%;
 }
 
 #about-moodboard {
